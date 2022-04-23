@@ -1,5 +1,6 @@
 Feature: user
 
+
   Scenario: Create user
     Given url 'http://localhost:8080/user'
     And request { username: "admin", password: "admin"}
